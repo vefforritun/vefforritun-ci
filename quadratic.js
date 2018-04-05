@@ -3,6 +3,6 @@ module.exports = function quadratic(a, b, c) {
 
   const x1 = (-b + Math.sqrt(d)) / 2*a;
   const x2 = (-b - Math.sqrt(d)) / 2*a;
-
+  throw new Error();
   return { x1, x2 };
 }
