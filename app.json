@@ -1,0 +1,22 @@
+{
+  "name": "CI test",
+  "env": {},
+  "environments": {
+    "test": {
+      "env": {
+        "NODE_ENV": "test"
+      }
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
